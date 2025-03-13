@@ -7,7 +7,7 @@ while True:
     ''')
     if c=='1':
         l=["rock","paper","scissor"]
-        y=random.shuffle(l)
+        y=random.choice(l)
         x=input('''Please select any one option
             Press 1 for rock
             Press 2 for scissor
